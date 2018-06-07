@@ -34,6 +34,7 @@ function clicked(x){
 
 function randomise() {
     randomiseClicked="true";
+    boxId=[null];
     var length = 9, tempIndex, i,j, array, tempValue;
     array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     for (length = 9; length >= 1; --length) {
